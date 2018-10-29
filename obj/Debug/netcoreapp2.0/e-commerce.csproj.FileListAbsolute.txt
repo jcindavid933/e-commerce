@@ -1,0 +1,10 @@
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/bin/Debug/netcoreapp2.0/e-commerce.deps.json
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/bin/Debug/netcoreapp2.0/e-commerce.runtimeconfig.json
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/bin/Debug/netcoreapp2.0/e-commerce.runtimeconfig.dev.json
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/bin/Debug/netcoreapp2.0/e-commerce.dll
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/bin/Debug/netcoreapp2.0/e-commerce.pdb
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/obj/Debug/netcoreapp2.0/e-commerce.csproj.CoreCompileInputs.cache
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/obj/Debug/netcoreapp2.0/e-commerce.AssemblyInfoInputs.cache
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/obj/Debug/netcoreapp2.0/e-commerce.AssemblyInfo.cs
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/obj/Debug/netcoreapp2.0/e-commerce.dll
+/Users/david/Desktop/Coding Dojo/csharp/e-commerce/obj/Debug/netcoreapp2.0/e-commerce.pdb

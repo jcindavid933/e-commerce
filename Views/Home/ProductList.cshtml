@@ -1,0 +1,10 @@
+<div class="product_div">
+    @foreach(var product in @ViewBag.allproducts)
+    {
+        <div class="product_box">
+            <a href="display_product/@product.ProductId"><img class="product_image" src="@product.Image" alt="Error"></a>
+            <p>@product.Name</p>
+            <p>(@product.Quantity left)</p>
+        </div>
+    }
+</div>

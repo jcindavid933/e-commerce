@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.left_side{
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 2%;
+}
+.right_side{
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    border: 2px solid black;
+    padding: 2%;
+}
+a{
+    text-decoration: underline;
+}
+.title1{
+    width: 38%;
+    margin-top: -12%;
+    background:white;
+}
+#title2{
+    width: 28%;
+    margin-top: -12%;
+    background:white;
+}
+#button1{
+    margin-left: 77%;
+}
+#button2{
+    margin-left: 85%;
+}
+.side_div{
+    width: 17.5%;
+    height: auto;
+    display: inline-block;
+}
+#button3{
+    margin-left: 61%;
+}
+.product_div{
+    width: 78%;
+    margin-left: 3%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.product_box{
+    display: inline-block;
+    width: 15%;
+    height: auto;
+    text-align: center;
+    margin-left: 2.5%;
+}
+.product_image{
+    width: 100%;
+}
+.display_image{
+    width: 30%;
+    margin-left: 35%;
+}
+.center{
+    text-align: center;
+}
+.new_order{
+    width: 50%;
+}
+#select1{
+    width: 25%;
+    display: inline-block;
+}
+#button4{
+    margin-left: 47%;
+}
+.recent{
+    width: 100%;
+    display: block;
+}
+.show_more{
+    margin-left: 47%;
+}
+.header{
+    margin-left: 2%;
+}

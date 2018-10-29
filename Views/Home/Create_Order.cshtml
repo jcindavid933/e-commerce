@@ -1,0 +1,40 @@
+@model Order
+<div class="new_order">
+    <h3>Add a new Order</h3><br>
+    <form asp-action="Create_Order" asp-controller="Home" method="post">
+        <div class="form-group row">
+            <label asp-for="UserId" class="col-sm-2 col-form-label">Customer</label>
+            <div class="col-sm-10">
+                <select id="select1" asp-for="UserId" id="inputState" class="form-control">
+                    <option selected="true" disabled="disabled">Select</option>  
+                    @foreach(User user in @ViewBag.users)
+                    {
+                        <option value="@user.UserId">@user.name</option>
+                    }
+                </select>
+            </div>
+            <span asp-validation-for="user"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Order</label>
+            <div class="col-sm-10">
+                <select id="select1" asp-for="Quantity" id="inputState" class="form-control">
+                    <option selected="true" disabled="disabled">Select</option>  
+                    @for(int i=1; i <= 10; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+                </select>
+                <select id="select1" asp-for="ProductId" id="inputState" class="form-control">
+                    <option selected="true" disabled="disabled">Select</option>  
+                    @foreach(Product product in @ViewBag.products)
+                    {
+                        <option value="@product.ProductId">@product.Name</option>
+                    }
+                </select>
+            </div>
+            <span asp-validation-for="product"></span>
+        </div>
+        <button id="button4" type="submit" class="btn btn-primary">Order</button><br><br>
+    </form>
+</div>
