@@ -2,6 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+    /*background: linear-gradient(#b48ead, #ebcb8b), url("https://www.transparenttextures.com/patterns/farmer.png");*/
+    background-color: #3b4252;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+  
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #415d79;
+  
+  }
 .container{
     width: 100%;
     height: auto;
@@ -92,4 +107,7 @@ a{
 }
 .header{
     margin-left: 2%;
+}
+.bg-light{
+    background-color: rgba(0,123,255,.25) !important;
 }
